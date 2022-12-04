@@ -6,7 +6,7 @@ from time import sleep
 
 
 #obs se der erro continuo tente aumentar os tempos dos sleep
-csv=pd.read_csv(r'C:\Users\dg\Videos\PYTHON\email\lista de emails.csv')
+csv=pd.read_csv(r'lista de emails.csv')
 df=pd.DataFrame(csv)
 options=webdriver.ChromeOptions()
 nami=uc.Chrome(options=options)
