@@ -73,7 +73,7 @@ def botmp3():   #envia o AUDIO de um video dgbotmp3/nome do video
                 print("cabou")
                 sleep(0.5)
                 nami.find_element(By.CSS_SELECTOR,"span[data-icon='clip']").click()
-                nami.find_element(By.CSS_SELECTOR,"input[type='file']").send_keys(mp3) #envia o video
+                nami.find_element(By.CSS_SELECTOR,"input[type='file']").send_keys(mp3) #envia o audio
                 sleep(5)
                 nami.find_element(By.CSS_SELECTOR,"span[data-icon='send']").click()    
                 links.clear()
